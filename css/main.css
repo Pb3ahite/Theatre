@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+}
+
+.border-top {
+  border-top: 2px solid white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav-links a:last-child {
+  margin-right: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.theater-image img {
+  max-width: 100%;
+}
+
+.light-gray-box {
+  background-color: lightgray;
+  width: calc(3/4 * 100%); /* Set width to 2/3 of the container */
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start; /* Adjusted alignment to start from the left */
+  margin-bottom: 20px;
+}
+
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.info-box__image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
+  flex-direction: row;
+}
+
+.info-box__button {
+  width: fit-content;
+  display: flex;
+  align-items: self-end;
+  margin-top: 10px;
+  border: 2px solid red;
+}
+
+.read-more-button {
+  background-color: #FFD700;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+  
+
+
